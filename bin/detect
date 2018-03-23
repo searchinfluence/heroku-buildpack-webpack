@@ -1,6 +1,6 @@
 #!/bin/sh
 
-if [ -f "$1/config/webpack.config.js" ]; then
+if [ -f "$1/config/webpack.config.babel.js" ]; then
   echo "Webpack"
   exit 0
 else
